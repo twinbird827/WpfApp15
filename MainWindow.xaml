@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <StackPanel >
 
-        <StackPanel.Resources>
+        <!--<StackPanel.Resources>
             <Style TargetType="TextBlock">
                 <Setter Property="local:TextBlockWrappingBehavior.MaxLines" Value="3" />
             </Style>
-        </StackPanel.Resources>
+        </StackPanel.Resources>-->
 
         <TextBlock Text="{Binding Text1}" Foreground="Blue" />
         <TextBlock Text="{Binding Text2, NotifyOnTargetUpdated=True}" Foreground="Red" />

@@ -79,7 +79,7 @@ namespace WpfApp15
                     NotifyOnTargetUpdated = true
                 });
             }
-
+            
             block.TargetUpdated += (sender, args) =>
             {
                 // 行の高さが設定されている場合はその値、未設定であればFormattedTextの高さを行の高さとする

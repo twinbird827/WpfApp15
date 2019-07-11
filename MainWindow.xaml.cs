@@ -23,10 +23,9 @@ namespace WpfApp15
         public MainWindow()
         {
             InitializeComponent();
-
-            Text1 = string.Join("", Enumerable.Range(0, 100).Select(i => "W"));
-            Text2 = string.Join("", Enumerable.Range(0, 200).Select(i => "W"));
-            Text3 = string.Join("", Enumerable.Range(0, 300).Select(i => "W"));
+            Text1 = string.Join("", Enumerable.Range(0, 100).Select(i => "X"));
+            Text2 = string.Join("", Enumerable.Range(0, 200).Select(i => "Y"));
+            Text3 = string.Join("", Enumerable.Range(0, 300).Select(i => "Z"));
 
             DataContext = this;
         }

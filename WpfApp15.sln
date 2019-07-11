@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp15", "WpfApp15.csproj", "{0EDF6CD7-A6E9-473D-85BD-8EBDF86327FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12AB67DB-0B63-4EB2-8EFE-BD496A1B2CC6} = {12AB67DB-0B63-4EB2-8EFE-BD496A1B2CC6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUtilV2", "..\WpfUtilV2\WpfUtilV2.csproj", "{12AB67DB-0B63-4EB2-8EFE-BD496A1B2CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
